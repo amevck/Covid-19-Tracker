@@ -1,0 +1,15 @@
+div.viz-padding {
+  padding-top: 5px;
+  padding-right: 15px;
+  padding-bottom: 15px;
+  padding-left: 8px;
+}
+
+div.body-bg-color {
+  background-color: #fff;
+  color: black;
+}
+
+.react-bootstrap-table table {
+  table-layout: auto;
+}

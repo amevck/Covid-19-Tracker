@@ -1,4 +1,4 @@
-body {
+/* body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
@@ -10,4 +10,69 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+} */
+.card {
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px !important;
+  border-radius: 12px;
+  padding: 20pX;
+  text-align: center;
+}
+
+.left-col {
+  height: auto;
+  position: relative;
+}
+
+/* .left-main-div {
+  margin: 0;
+  position: absolute;
+  top: 33%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+} */
+
+.logo {
+  width: 100px;
+  margin-left: 93px;
+}
+
+.logo img {
+  width: 100%;
+}
+
+.h1 {
+  font-size: 50px !important;
+  font-weight: 700;
+}
+
+.h1 span {
+  font-weight: 300;
+}
+
+.css-2613qy-menu {
+  background-color: blueviolet !important;
+}
+
+.table-responsive>.table-bordered {
+  text-align: left;
+}
+
+.covid-detail {
+  font-size: 26px !important;
+  font-weight: 500;
+  padding: 4px 0;
+}
+
+@media(max-width:768px) {
+  .left-col {
+    margin-bottom: 25px;
+  }
+
+  .left-main-div {
+    margin: 0;
+    position: relative;
+    top: 0%;
+    -ms-transform: translateY(0%);
+    transform: translateY(0%);
+  }
 }

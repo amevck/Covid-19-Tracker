@@ -1,23 +1,40 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import Dashboard from './components/Dashboard/Dashboard';
+import { library } from '@fortawesome/fontawesome-svg-core';
+import { fab } from '@fortawesome/free-brands-svg-icons';
+import {
+  faHeadSideVirus,
+  faHeadSideMask,
+  faHeadSideCough,
+  faHeadSideCoughSlash,
+  faRedo,
+  faArrowAltCircleUp,
+  faVirus,
+  faProcedures,
+  faBan,
+} from '@fortawesome/free-solid-svg-icons';
 
+library.add(
+  fab,
+  faRedo,
+  faHeadSideVirus,
+  faHeadSideMask,
+  faHeadSideCough,
+  faHeadSideCoughSlash,
+  faVirus,
+  faArrowAltCircleUp,
+  faProcedures,
+  faBan
+);
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <div className={'body-bg-color'}>
+          <Dashboard />
+          <br />
+        </div>
       </header>
     </div>
   );
