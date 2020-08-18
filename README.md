@@ -1,6 +1,6 @@
 # Corona (Covid-19) Tracker
 
-This project is an open-source React based (TypeScript) project for tracking the corona virus state. This application loadded in offline mode once you go to url. this is showing last updated data if the device is offline. this is using [Open Disease Data](https://corona.lmao.ninja/docs/) for getting updated data. Please use a builded applicatn for getting full advantages (working with offline mode).
+This is an open-source React based (TypeScript) project designed for tracking the current status of the coronavirus. This application loadded in offline mode also.This is showing last updated data if the device is in offline. The corona tracker is using the [Open Disease Data](https://corona.lmao.ninja/). Please build the application and run with a http server for getting the full advantages (working with offline mode).
 
 ## Live demo
 
@@ -8,7 +8,7 @@ See the up-to-date demo [here](https://canvas-joy-286604.el.r.appspot.com).
 
 ## Architecture diagram
 
-![architecture Diagram](public/covid-19-tracker-architecture-diagram.png)
+![architecture Diagram](public/covid-19-tracker-arc-diagram.png)
 
 ## Available Scripts
 
